@@ -30,12 +30,12 @@ public class SignInAsJobSeeker extends BasePage {
     }
 
     public void SetRegisteredEmailId(String email) {
-        emailfield.sendKeys("lgstester50@gmail.com");
+        emailfield.sendKeys(email);
         //ReusableActions.clickAndType(emailfield,email );
     }
 
     public void SetPassword(String password) {
-        passwordfield.sendKeys("Test123");
+        passwordfield.sendKeys(password);
         //ReusableActions.clickAndType(passwordfield, password);
     }
 
